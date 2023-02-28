@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <title>form </title>
+    </head>
+    <body>
+        <div id="message">
+            <h1>MESSAGE IS WAITING FOR YOU</h1>
+           <a> <button id="btn" onclick="greet(this);">Click here</button></a>
+           <p id="msge"></p>
+        </div>
+        <style>
+            body{
+                background-image:linear-gradient(rgb(236, 34, 236),lightblue) ;
+            }
+            #message{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width:75%;
+                height:75%;
+        
+                background-image: linear-gradient(to right, orange,yellow,rgb(64, 235, 64),rgb(91, 204, 233));
+                margin: 100px 0 0 150px;
+            }
+            #btn{
+                height:auto;
+                width:auto;
+                color: aquamarine;
+                background-color: black;
+
+            }
+            #btn:hover{
+                color:black;
+                background-color: rgb(65, 209, 209);
+            }
+            #msge{
+                color:rgb(234, 9, 167);
+                font-size: 3em;
+                font-family: cursive;
+            }
+            
+        </style>
+    <script src="./script.js"></script> 
+    </body>
+</html>
